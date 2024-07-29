@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../img/MV5BNDcwZDc2NTEtMzU0Ni00YTQyLWIyYTQtNTI3YjM0MzhmMmI4XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(8px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+    flex: 1;
+}
+
+main h2{
+    color: greenyellow;
+    display: flex;
+    justify-content:center ;
+    background-color: black;
+}
+
+.pokemon-list, .team-list {
+    border: 2px dashed #ccc;
+    min-height: 200px;
+    padding: 10px;
+}
+
+.pokemon {
+    cursor: grab;
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    width: 100%;
+}
